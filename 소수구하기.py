@@ -13,3 +13,5 @@ for i in range(n,m+1):
   if i>1:
     if bool_list[i]==0:
       print(i)
+
+print('test')
