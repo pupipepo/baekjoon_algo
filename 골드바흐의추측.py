@@ -10,7 +10,7 @@ for i in range(2,1000001):
       bool_list[j]=1
 
 def Goldbach(num):
-  for i in range(3, num//2, 2):
+  for i in range(3, num//2+1, 2):
     if (bool_list[i]==0) and (bool_list[num-i]==0):
       return f'{num} = {i} + {num-i}'
   return f"Goldbach's conjecture is wrong"
